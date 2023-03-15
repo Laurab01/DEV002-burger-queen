@@ -1,0 +1,34 @@
+*{
+margin:0;
+padding: 0;
+}
+.principal{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 98vh;
+}
+footer{
+    background-color: #28154A;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+}
+.btn-menu,
+.btn-chef{
+    width: 178px;
+    height: 176px;
+}
+.options{
+    display: flex;
+    width: 60%;
+    padding-bottom: 90px;
+    justify-content: space-between;
+    color: white;
+}
+.waiterChef{
+    text-align: center;
+}
