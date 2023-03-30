@@ -7,7 +7,7 @@ padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 98vh;
+    min-height: 96vh;
 }
 footer{
     background-color: #28154A;
@@ -15,7 +15,7 @@ footer{
     justify-content: center;
     color: white;
     font-weight: bold;
-    height: 35px;
+    height: 42px;
 }
 .btn-menu,
 .btn-chef{
@@ -28,7 +28,7 @@ footer{
     padding-bottom: 90px;
     justify-content: space-between;
     color: white;
-}
-.waiterChef{
-    text-align: center;
+    h3{
+        text-align: center;
+    }
 }

@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": "01",
+            "name": "Hawaiana",
+            "category":"Comidas",
+            "price": "7",
+            "img":"/img/Hawaiana.png"
+        },
+        {
+            "id": "02",
+            "name": "Champiñon",
+            "category":"Comidas",
+            "price": "7",
+            "img":"/img/champi.png"
+        },
+        {
+            "id": "03",
+            "name": "Pepperoni",
+            "category":"Comidas",
+            "price": "7",
+            "img":"/img/Pepperoni2.png"
+        },
+        {
+            "id": "05",
+            "name": "Limonada",
+            "category":"Bebidas",
+            "price": "4",
+            "img":"/img/Limonada.png"
+        },
+        {
+            "id": "06",
+            "name": "Gaseosa",
+            "category":"Bebidas",
+            "price": "6",
+            "img":"/img/Gaseosa.png"
+        },
+        {
+            "id": "07",
+            "name": "Agua",
+            "category":"Bebidas",
+            "price": "2",
+            "img":"/img/Agua.png"
+        }
+    ]
+}

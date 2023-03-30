@@ -1,0 +1,206 @@
+$purpleColor:#5800FF;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header {
+    background-color: #28154A;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    right: 35px;
+
+}
+
+.sect-input {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 5.8vh;
+}
+
+.home,
+.order {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+hr {
+    background-color: black;
+    width: 3px;
+    border-color: black;
+}
+
+.inputName {
+    height: 0;
+    width: 370px;
+    margin: 15px;
+    border-color: $purpleColor;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    position: relative;
+    right: 35px;
+    padding: 2.5%;
+    text-align: center;
+
+}
+
+.numTable {
+    height: 40px;
+    margin: 15px;
+    width: 85px;
+    border-color: $purpleColor;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: large;
+}
+
+.foodContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 0 30px;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    right: 35px;
+}
+.sect-btn-amount {
+    display: flex;
+    justify-content: space-around;
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.imgMenu {
+    width: 100px;
+    height: 95px;
+    padding: 15px 15px 10px 20px;
+
+}
+
+.drinkContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    padding: 10px 0 15px 60px;
+    font-size: 20px;
+}
+
+.sect-menu {
+    background-color: black;
+    color: white;
+    h2{
+        text-align: center;
+        font-size: 35px;
+        }
+    h3{
+        font-size: 25px;
+    padding-left: 30px;
+    }
+}
+
+.card-container {
+    border: 1px solid #818181;
+    border-radius: 14px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.order-summary {
+    border: 2px solid $purpleColor;
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    left: 46%;
+    bottom: 29vh;
+    color: white;
+    height: 47vh;
+
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+}
+
+.total-order-price {
+    text-align: right;
+    margin-right: 15px;
+    h4{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}
+
+.summary {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.product-summary {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    p{
+        width: 32%;
+        text-align: center;
+        margin: 0 0 10px 30px;
+    }
+}
+
+.btn-save-order {
+    background-color: $purpleColor;
+    color: white;
+    width: 265px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 22px;
+    position: relative;
+    bottom: 6vh;
+    left: 63%;
+}
+.save-order{
+    height: 0;
+}
+
+.btn-delete-order {
+    background-color: $purpleColor;
+    color: white;
+    width: 160px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 22px;
+    position: absolute;
+    top: 60vh;
+    left: 178px;
+}

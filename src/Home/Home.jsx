@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import logo from "../Images/Logo.png";
 import waiter from "../Images/mesero.png";
 import chef from "../Images/cocina.png";
-import './Home.css';
+import './Home.scss';
 
 const Home = () => {
     return(
